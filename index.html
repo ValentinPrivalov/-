@@ -1,0 +1,66 @@
+<html>
+
+    <head>
+        <title>Моделювання</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="animation">
+
+            <div class="col">
+                <img src="user-good.png">
+
+                <span id="countUsersGood">0</span>
+            </div>
+
+            <canvas id="canvas" width="800" height="600">
+                Canvas element not supported in your browser
+            </canvas>
+
+            <div class="col">
+                <img src="user-bad.png">
+                <span id="countUsersBad">0</span>
+            </div>
+
+            <div class="row">
+                <img src="user.png">
+                <span id="countUsers">0</span>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button id="addUser">
+                        <img src="user-add.png">Додати нового відвідувача
+                    </button>
+                </div>
+                <div class="col">
+                    <button id="addUsers">
+                        <img src="users-add.png">Заповнити чергу
+                    </button>
+                </div>
+                <div class="col right">
+                    <button id="repeating">
+                        <img src="repeating.png">Повторення
+                    </button>
+                </div>
+            </div>
+
+            <div class="img">
+                <img id="market" src="market.png">
+                <img id="user" src="user.png">
+                <img id="user-wait" src="user-wait.png">
+                <img id="user-service" src="user-service.png">
+                <img id="user-good" src="user-good.png">
+                <img id="user-bad" src="user-bad.png" >
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
